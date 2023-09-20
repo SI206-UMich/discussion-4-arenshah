@@ -7,11 +7,11 @@ class Rectangle():
     def __str__(self):
         return "A rectangle with width " + str(self.width) + " and height " + str(self.height)
 
-    # def verify_input(self):
-    #     if self.width > 0 and self.height > 0:
-    #         return True
-    #     else:
-    #         return False
+    def verify_input(self):
+        if self.width > 0 and self.height > 0:
+            return True
+        else:
+            return False
         
     # def area(self):
     #     if self.verify_input() == True:
